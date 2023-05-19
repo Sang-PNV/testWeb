@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header p {
+        color: red;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      /* footer {
+        display: flex;
+        justify-content: space-around;
+      }
+      footer .col1 {
+        width: 20%;
+      } */
+      footer .col2,
+      footer .col3,
+      footer .col1 {
+        float: left;
+        width: 30%;
+      }
+      .clear {
+        clear: both;
+      }
+      @media screen and (min-width: 768px) {
+        body {
+          background-color: red;
+        }
+      }
+      @media screen and (min-width: 1024px) {
+        body {
+          background-color: blue;
+        }
+      }
+
+      body {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Đầu trang</h1>
+      <p>Phạm Nguyễn Vinh Sang</p>
+    </header>
+    <main>
+      <a href="https://www.google.com/">Đi đến GG</a>
+      <!-- <img
+        src="./img/hinh-anh-thien-nhien-phong-canh-dep-nhat.jpg"
+        alt="anhPhongCanh"
+      /> -->
+    </main>
+    <footer>
+      <div class="col1">Cuối trang</div>
+      <div class="col2">Cuối trang</div>
+      <div class="col3">Cuối trang</div>
+    </footer>
+    <div class="clear"></div>
+    <p>Nội dung</p>
+  </body>
+</html>
